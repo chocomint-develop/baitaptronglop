@@ -48,7 +48,7 @@ public class Product {
 	
 	Scanner scan = new Scanner(System.in);
 	
-	public void NhapSP() {
+	public void NhapSP(Scanner scan) {
 		System.out.print("Nhap id san pham: ");
 		id = scan.nextInt();
 		scan.nextLine();
